@@ -22,7 +22,7 @@ function init_xplevelmeter() {
     display: 'table',
     overflow: 'hidden',
     marginBottom: '-5px',
-	width: "100%"
+    width: "100%"
   });
 	
   //vertical centering in css is fun
@@ -52,7 +52,7 @@ function update_xplevelmeter()
         fontSize: '30px',
         color: 'green',
         textAlign: 'center',
-      });
+    });
 }
 
 function getLevelUpXP() {
