@@ -62,7 +62,7 @@ function getXP() {
         startXP = character.xp;
         startLevel = character.level;
     }else if (character.xp != startXP){
-		var XPGained = character.xp-startXP;
+	var XPGained = character.xp-startXP;
         var elapsed = new Date() - startTime;
         var xpPerSecond = parseFloat(Math.round((XPGained/(elapsed/1000)) * 100) / 100);
         var xpPerHour = parseInt(xpPerSecond * 60 * 60).toLocaleString('en').replace(",","");
